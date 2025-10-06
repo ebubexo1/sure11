@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gozy Resources - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Gozy Resources</div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./product.html">Our Products</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <div class="contact-content" style="background-image: url('/assets/assets.jpg');">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Phone:</strong> 09065621569</p>
+                <p><strong>Phone:</strong> 09039879075</p>
+                <p><strong>Phone:</strong> 07063718709</p>
+                <p><strong>Address:</strong> Head office: 13/17 Breadfruit str, Offwhite Plaza Shop A1&A2 Ground Floor By Abibu Oki Street, Lagos Island Mandilas</p>
+                <p><strong>Email:</strong> Gozyresources@gmail.com</p>
+                <p><strong>@instagram:</strong> @gozy_resources_1</p>
+                <a href="https://wa.link/yxfczc" target="_blank" class="whatsapp-btn">Message on WhatsApp</a>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+                <a href="#" id="mapLink" class="text-blue-500 hover:underline block mt-2">View Our Location on Map</a>
+            </form>
+            <div id="mapContainer" class="hidden">
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.704086149279!2d3.400111315259123!3d6.451111626468076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2a6a7b7b7b%3A0x8e5b8e0f0b0b0b0b!2s13%2F17%20Breadfruit%20St%2C%20Lagos%20Island%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1698765432109!5m2!1sen!2sus"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Gozy Resources. Your satisfaction is our priority.</p>
+    </footer>
+
+    <script defer src="/script.js"></script>
+</body>
+</html>
